@@ -1,3 +1,7 @@
+# Introduction
+This is an app where users can post and see others users posts. Like a mini social network
+Based on mean stack. 
+
 # MeanApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.

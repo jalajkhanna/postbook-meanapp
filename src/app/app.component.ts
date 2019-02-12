@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mean-app';
+  allPosts = [];
+  onCreatePost(post) {
+    this.allPosts.push(post);
+  }
 }
