@@ -6,10 +6,10 @@ import { FormsModule} from '@angular/forms';
 import {MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { CreatePostComponent } from './create-post/create-post.component';
-import { HeaderComponent} from './header/header.component';
+import { CreatePostComponent } from './components/create-post/create-post.component';
+import { HeaderComponent} from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {ShowPostComponent} from './show-post/show-post.component';
+import {ShowPostComponent} from './components/show-post/show-post.component';
 
 @NgModule({
   declarations: [
